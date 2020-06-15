@@ -117,6 +117,7 @@ class _EditInfoShopState extends State<EditInfoShop> {
                 onPressed: () {
                   Navigator.pop(context);
                   editThread();
+                  print('jell');
                 },
                 child: Text('Ok'),
               ),
